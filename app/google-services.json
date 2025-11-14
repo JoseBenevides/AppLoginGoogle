@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "653111589549",
+    "project_id": "applogin-399f5",
+    "storage_bucket": "applogin-399f5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653111589549:android:4f55b1e0fe6d40de69a424",
+        "android_client_info": {
+          "package_name": "br.unisanta.applogingoogle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653111589549-sfalk30cigl1bdkhllp43j37iqgvoptv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTIVmryUKu-aMLBWfpgNSJQKRoxM8Qafg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653111589549-sfalk30cigl1bdkhllp43j37iqgvoptv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
