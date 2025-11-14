@@ -99,6 +99,12 @@ class MainActivity : AppCompatActivity() {
             Log.d("GOOGLE_SIGN_IN", "Botão do Google clicado. Iniciando fluxo de login...")
             signInGoogle() // Chama a função que força o signOut
         }
+
+        // Listener para o TextView "Esqueceu a senha?"
+        binding.txvEsqueciSenha.setOnClickListener {
+            val intent = Intent(this, PasswordResetActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     // Desloga/limpa a sessão anterior salva do Google.
